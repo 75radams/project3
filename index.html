@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Piet Mondrian</title>
+    <meta name="description" content="Hello, WebVR! • A-Frame">
+    <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene background="color: #FAFAFA">
+
+      <a-entity id="camera" look-controls cursor="rayOrigin: mouse"></a-entity> 
+
+      <a-entity rotation="0 -180 0">
+        <a-camera position="-1 4 8.5"></a-camera>
+      </a-entity>
+
+      <a-text value="Piet Mondrian" color="#17202A" position="2.332 4.430 0.063" rotation="0 -180 0" scale="2 2 2" animation="property: position; to: 1.688 4.430 0.063; dir: alternate; loop: true;"></a-text>
+
+      <a-entity>
+        <a-light type="point" color="#FFF" position="0 5 -8">
+      </a-entity>
+
+
+
+      <a-entity id="box1" geometry="primitive: box; width: 0.6; depth: 0.5; height: 2" position="8.065 0.310 0.136" rotation="90 0 0" material="color: #D0D3D4" shadow>
+        <a-animation attribute="position"
+               dur="1000"
+               fill="forwards"
+               to="2.67 3.113 0.75"
+               dir="alternate"
+               begin="click"></a-animation>
+        <a-animation attribute="rotation"
+               dur="1000"
+               fill="forwards"
+               to="0 0 0"
+               direction="alternate"
+               begin="click"></a-animation>
+      </a-entity>
+
+
+
+      <a-entity id="box2" geometry="primitive: box; width: 0.6; depth: 1; height: 1.870" position="7.5 0.5 -3.221" rotation="90 0 0" material="color: #909497" shadow>
+        <a-animation attribute="position"
+               dur="1000"
+               fill="forwards"
+               to="2.675 1.175 0.065"
+               direction="alternate"
+               begin="click"></a-animation>
+        <a-animation attribute="rotation"
+               dur="1000"
+               fill="forwards"
+               to="0 0 0"
+               direction="alternate"
+               begin="click"></a-animation>
+      </a-entity>
+
+
+
+      <a-entity id="box3" geometry="primitive: box; width: 1.1; depth: 0.75; height: 0.25" position="5.428 0.762 -4.300" rotation="0 90 0" material="color: #F1C40F" shadow>
+        <a-animation attribute="position"
+               dur="1000"
+               fill="forwards"
+               to="2.426 0.113 -0.261"
+               direction="alternate"
+               begin="click"></a-animation>
+        <a-animation attribute="rotation"
+               dur="1000"
+               fill="forwards"
+               to="0 0 0"
+               direction="alternate"
+               begin="click"></a-animation>
+      </a-entity>
+
+
+
+      <a-entity id="box4" geometry="primitive: box; width: 1.1; depth: 1.250; height: 0.67" position="3.480 0.339 -4.628" rotation="0 0 0" material="color: #17202A" shadow>
+        <a-animation attribute="position"
+               dur="1000"
+               fill="forwards"
+               to="1.328 0.574 -0.120"
+               direction="alternate"
+               begin="click"></a-animation>
+      </a-entity>
+
+
+
+      <a-entity id="box5" geometry="primitive: box; width: 1.1; depth: 0.25; height: 0.6" position="4.753 0.352 -2.064" rotation="90 0 0" material="color: #E74C3C" shadow>
+        <a-animation attribute="position"
+               dur="1000"
+               fill="forwards"
+               to="1.328 1.211 -0.246"
+               direction="alternate"
+               begin="click"></a-animation>
+        <a-animation attribute="rotation"
+               dur="1000"
+               fill="forwards"
+               to="0 0 0"
+               direction="alternate"
+               begin="click"></a-animation>
+      </a-entity>
+
+
+
+      <a-entity id="box6" geometry="primitive: box; width: 1.1; depth: 0.75; height: 0.6" position="5.472 0.332 -4.787" rotation="0 0 0" material="color: #F1C40F" shadow>
+        <a-animation attribute="position"
+               dur="1000"
+               fill="forwards"
+               to="1.328 1.806 -0.261"
+               direction="alternate"
+               begin="click"></a-animation>
+      </a-entity>
+
+
+
+      <a-entity id="box7" geometry="primitive: box; width: 1.1; depth: 0.75; height: 0.842" position="7.404 0.443 -0.261" rotation="0 90 0" material="colo:= #F1C40F" shadow>
+        <a-animation attribute="position"
+               dur="1000"
+               fill="forwards"
+               to="1.328 2.525 -0.261"
+               direction="alternate"
+               begin="click"></a-animation>
+        <a-animation attribute="rotation"
+               dur="1000"
+               fill="forwards"
+               to="0 0 0"
+               direction="alternate"
+               begin="click"></a-animation>
+      </a-entity>
+
+
+
+      <a-entity id="box8" geometry="primitive: box; width: 0.5; depth: 1.250; height: 0.842" position="3.608 1.547 -4.374" rotation="90 90 0" material="color: #17202A" shadow>
+        <a-animation attribute="position"
+               dur="1000"
+               fill="forwards"
+               to="2.124 2.525 -0.120"
+               direction="alternate"
+               begin="click"></a-animation>
+        <a-animation attribute="rotation"
+               dur="1000"
+               fill="forwards"
+               to="0 0 0"
+               direction="alternate"
+               begin="click"></a-animation>
+      </a-entity>
+
+
+
+      <a-entity id="box9" geometry="primitive: box; width: 0.733; depth: 1; height: 0.67" position="7.402 2.328 -2.87" rotation="0 0 0" material="color: #909497" shadow>
+        <a-animation attribute="position"
+               dur="1000"
+               fill="forwards"
+               to="0.407 0.574 0.065"
+               direction="alternate"
+               begin="click"></a-animation>
+      </a-entity>
+
+
+
+      <a-entity id="box10" geometry="primitive: box; width: 0.733; depth: 0.5; height: 0.6" position="7.555 0.903 0.668" rotation="0 90 0" material="color: #D0D3D4" shadow>
+        <a-animation attribute="position"
+               dur="1000"
+               fill="forwards"
+               to="0.407 1.211 0.75"
+               direction="alternate"
+               begin="click"></a-animation>
+        <a-animation attribute="rotation"
+               dur="1000"
+               fill="forwards"
+               to="0 0 0"
+               direction="alternate"
+               begin="click"></a-animation>
+      </a-entity>
+
+
+
+      <a-entity id="box11" geometry="primitive: box; width: 0.733; depth: 0.5; height: 1.442" position="5.927 0.220 1.693" rotation="90 0 0" material="color: #34495E" shadow>
+        <a-animation attribute="position"
+               dur="1000"
+               fill="forwards"
+               to="0.407 2.225 -0.055"
+               direction="alternate"
+               begin="click"></a-animation>
+        <a-animation attribute="rotation"
+               dur="1000"
+               fill="forwards"
+               to="0 0 0"
+               direction="alternate"
+               begin="click"></a-animation>
+      </a-entity>
+
+
+
+      <a-entity id="box12" geometry="primitive: box; width: 0.733; depth: 0.250; height: 0.6" position="4.767 0.351 -1.465" rotation="90 0 0" material="color: #E74C3C" shadow>
+        <a-animation attribute="position"
+               dur="1000"
+               fill="forwards"
+               to="0.407 3.241 -0.246"
+               direction="alternate"
+               begin="click"></a-animation>
+        <a-animation attribute="rotation"
+               dur="1000"
+               fill="forwards"
+               to="0 0 0"
+               direction="alternate"
+               begin="click"></a-animation>
+      </a-entity>
+
+
+
+      <a-entity id="box13" geometry="primitive: box; width: 1.6; depth: 1; height: 0.6" position="7.340 1.675 -3.155" rotation="0 90 0" material="color: #909497" shadow>
+        <a-animation attribute="position"
+               dur="1000"
+               fill="forwards"
+               to="1.575 3.241 0.065"
+               direction="alternate"
+               begin="click"></a-animation>
+        <a-animation attribute="rotation"
+               dur="1000"
+               fill="forwards"
+               to="0 0 0"
+               direction="alternate"
+               begin="click"></a-animation>
+      </a-entity>
+
+
+
+      <a-entity id="box14" geometry="primitive: box; width: 1.833; depth: 0.5; height: 0.25" position="8.053 0.692 0.100" rotation="0 90 0" material="color: #D0D3D4" shadow>
+        <a-animation attribute="position"
+               dur="1000"
+               fill="forwards"
+               to="0.953 0.113 0.75"
+               direction="alternate"
+               begin="click"></a-animation>
+        <a-animation attribute="rotation"
+               dur="1000"
+               fill="forwards"
+               to="0 0 0"
+               direction="alternate"
+               begin="click"></a-animation>
+      </a-entity>
+
+
+
+      <a-entity id="box15" geometry="primitive: box; width: 0.5; depth: 1.250; height: 0.5" position="3.626 2.434 -4.686" rotation="0 0 0" material="color: #17202A" shadow>
+        <a-animation attribute="position"
+               dur="1000"
+               fill="forwards"
+               to="2.124 3.793 -0.120"
+               direction="alternate"
+               begin="click"></a-animation>
+      </a-entity>
+
+
+
+      <a-entity id="box16" geometry="primitive: box; width: 1.833; depth: 0.5; height: 0.5" position="5.930 0.738 1.357" rotation="0 90 0" material="color: #34495E" shadow>
+        <a-animation attribute="position"
+               dur="1000"
+               fill="forwards"
+               to="0.953 3.793 -0.055"
+               direction="alternate"
+               begin="click"></a-animation>
+        <a-animation attribute="rotation"
+               dur="1000"
+               fill="forwards"
+               to="0 0 0"
+               direction="alternate"
+               begin="click"></a-animation>
+      </a-entity>
+
+
+
+      <a-entity id="box17" geometry="primitive: box; width: 1.067; depth: 0.5; height: 0.558" position="7.525 0.349 0.75" rotation="0 90 0" material="color: #D0D3D4" shadow>
+        <a-animation attribute="position"
+               dur="1000"
+               fill="forwards"
+               to="-0.496 3.824 0.75"
+               direction="alternate"
+               begin="click"></a-animation>
+        <a-animation attribute="rotation"
+               dur="1000"
+               fill="forwards"
+               to="0 0 0"
+               direction="alternate"
+               begin="click"></a-animation>
+      </a-entity>
+
+
+
+      <a-entity id="box18" geometry="primitive: box; width: 0.8; depth: 1.250; height: 0.6" position="3.568 1.560 -4.936" rotation="90 0 0" material="color: #17202A" shadow>
+        <a-animation attribute="position"
+               dur="1000"
+               fill="forwards"
+               to="-0.368 3.241 -0.120"
+               direction="alternate"
+               begin="click"></a-animation>
+        <a-animation attribute="rotation"
+               dur="1000"
+               fill="forwards"
+               to="0 0 0"
+               direction="alternate"
+               begin="click"></a-animation>
+      </a-entity>
+
+
+
+      <a-entity id="box19" geometry="primitive: box; width: 0.8; depth: 0.250; height: 1.442" position="4.786 0.095 -1.629" rotation="90 0 0" material="color: #E74C3C" shadow>
+        <a-animation attribute="position"
+               dur="1000"
+               fill="forwards"
+               to="-0.368 2.225 -0.246"
+               direction="alternate"
+               begin="click"></a-animation>
+        <a-animation attribute="rotation"
+               dur="1000"
+               fill="forwards"
+               to="0 0 0"
+               direction="alternate"
+               begin="click"></a-animation>
+      </a-entity>
+
+
+
+      <a-entity id="box20" geometry="primitive: box; width: 0.8; depth: 0.75; height: 0.6" position="5.409 0.319 -4.061" rotation="0 0 0" material="color: #F1C40F" shadow>
+        <a-animation attribute="position"
+               dur="1000"
+               fill="forwards"
+               to="-0.368 1.211 -0.261"
+               direction="alternate"
+               begin="click"></a-animation>
+      </a-entity>
+
+
+
+      <a-entity id="box21" geometry="primitive: box; width: 0.8; depth: 0.5; height: 0.67" position="5.951 0.245 0.621" rotation="90 0 0" material="color: #34495E" shadow>
+        <a-animation attribute="position"
+               dur="1000"
+               fill="forwards"
+               to="-0.368 0.574 -0.055"
+               direction="alternate"
+               begin="click"></a-animation>
+        <a-animation attribute="rotation"
+               dur="1000"
+               fill="forwards"
+               to="0 0 0"
+               direction="alternate"
+               begin="click"></a-animation>
+      </a-entity>
+
+
+
+      <a-entity id="box22" geometry="primitive: box; width: 0.8; depth: 1.250; height: 0.25" position="3.567 0.800 -4.632" rotation="0 0 0" material="color: #17202A" shadow>
+        <a-animation attribute="position"
+               dur="1000"
+               fill="forwards"
+               to="-0.368 0.113 -0.120"
+               direction="alternate"
+               begin="click"></a-animation>
+      </a-entity>
+
+
+
+      <a-entity id="box23" geometry="primitive: box; width: 0.267; depth: 0.5; height: 0.6" position="5.959 1.291 1.174" rotation="0 0 0" material="color: #34495E" shadow>
+        <a-animation attribute="position"
+               dur="1000"
+               fill="forwards"
+               to="-0.895 3.241 -0.055"
+               direction="alternate"
+               begin="click"></a-animation>
+      </a-entity>
+
+
+
+      <a-entity id="box24" geometry="primitive: box; width: 0.267; depth: 1; height: 2.042" position="7.287 1.145 -3.142" rotation="0 90 90" material="color: #909497" shadow>
+        <a-animation attribute="position"
+               dur="1000"
+               fill="forwards"
+               to="-0.895 1.926 0.065"
+               direction="alternate"
+               begin="click"></a-animation>
+        <a-animation attribute="rotation"
+               dur="1000"
+               fill="forwards"
+               to="0 0 0"
+               direction="alternate"
+               begin="click"></a-animation>
+      </a-entity>
+
+
+
+      <a-entity id="box25" geometry="primitive: box; width: 0.267; depth: 0.250; height: 0.92" position="4.795 0.347 -1.027" rotation="90 90 0" material="color: #E74C3C" shadow>
+        <a-animation attribute="position"
+               dur="1000"
+               fill="forwards"
+               to="-0.895 0.448 -0.246"
+               direction="alternate"
+               begin="click"></a-animation>
+        <a-animation attribute="rotation"
+               dur="1000"
+               fill="forwards"
+               to="0 0 0"
+               direction="alternate"
+               begin="click"></a-animation>
+      </a-entity>
+
+
+
+      <a-entity id="box26" geometry="primitive: box; width: 2.333; depth: 1; height: 0.058" position="7.296 1.332 -3.120" rotation="0 90 0" material="color: #909497" shadow>
+        <a-animation attribute="position"
+               dur="1000"
+               fill="forwards"
+               to="1.203 4.077 0.065"
+               direction="alternate"
+               begin="click"></a-animation>
+        <a-animation attribute="rotation"
+               dur="1000"
+               fill="forwards"
+               to="0 0 0"
+               direction="alternate"
+               begin="click"></a-animation>
+      </a-entity>
+
+
+
+      <a-entity id="box27" geometry="primitive: box; width: 0.5; depth: 1; height: 1.870" position="6.95 0.5 -3.221" rotation="90 0 0" material="color: #909497" shadow>
+        <a-animation attribute="position"
+               dur="1000"
+               fill="forwards"
+               to="2.124 1.175 0.493"
+               direction="alternate"
+               begin="click"></a-animation>
+        <a-animation attribute="rotation"
+               dur="1000"
+               fill="forwards"
+               to="0 0 0"
+               direction="alternate"
+               begin="click"></a-animation>
+      </a-entity>
+
+
+
+    </a-scene>
+  </body>
+</html>
